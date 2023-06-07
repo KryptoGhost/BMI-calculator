@@ -3,6 +3,7 @@ let height = document.querySelector('.height');
 const submit = document.querySelector('.submit');
 let result = document.querySelector('.result');
 let rate = document.querySelector('.category');
+let clear = document.querySelector('.clear');
 
 window.addEventListener('DOMContentLoaded', (Event) => {
     
@@ -48,4 +49,11 @@ window.addEventListener('DOMContentLoaded', (Event) => {
             }
         }
     }
+
+    clear.addEventListener('click', function() {
+        rate.textContent = '';
+        result.textContent = '';
+        height.textContent = '';
+        weight.textContent = '';
+    })
 })
