@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    margin:auto;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.main {
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.button {
+    margin: auto;
+}
+
+.result, .category {
+    text-align: center;
+}
+
+.healthy {
+    color: green
+}
+
+.underweight {
+    color: orange
+}
+
+.overweight {
+    color: orangered;
+}
